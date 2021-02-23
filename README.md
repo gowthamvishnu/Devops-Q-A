@@ -16,7 +16,7 @@ A)        Agile                        Devops
   Not the best for business         Best for the business
 
 5)explain about the devops lifecycle?
-A)Devops lifecycle involve different stages.they are
+A)Devops lifecycle involves in  different stages.they are
   * Continuous Development
   * Continuous integration
   * Continuous testing
