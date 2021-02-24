@@ -1,9 +1,9 @@
 # Devops-Q-A
 1)agile methodology?
 A)AGILE methodology is a practice that promotes continuous iteration(repitition) of development and testing throughout the software development lifecycle(SDLC) of the project. In the Agile model, both development and testing activities are concurrent(at the same time /continously), unlike the Waterfall model.
-
+ 
 2)What Is the Waterfall Model?
-A) The waterfall model is a linear project management approach, where stakeholder(may be client) and customer requirements are gathered at the beginning of the project, and then a sequential project plan is created to accommodate those requirements/ execute the plan in a sequential manner.
+A) The waterfall model is a linear project management approach, where stakeholder(may be client) and customer requirements are gathered at the beginning of the project, and then a sequential project plan is created to accommodate/fulfill those requirements/ execute the plan in a sequential manner.
 
 3)what is devops?
 A) Devops is a software development approch which involves Continous development,continous testing,continous integration,continous deployment,continous monitoring  of the software throughtout it's development lifecycle.
@@ -23,14 +23,14 @@ A)Devops lifecycle involves in  different stages.they are
   * Continuous Deployment
   * Continuous monitoring
 
-6)Explain CI?
+6)Explain Continous integration?
 * This is the stage where the code functionality is integrated with the existing code. since there is continuous  development of software.
 * The updated code needs to be integrated continuously  as well as smoothly with  the systems to reflect changes to the end user.
 * The changed code should also ensure that there are no errors in the runtime environment. allowing 
   us to test the changes and check how it reacts with other changes.
   EX: Jenkins
 
-7)Explain CD?
+7)Explain Continous deployment?
 * It is the stage where the code is deployed to the production environment.
 * Here we ensure that the code is correctly deployed on all the servers.
 * If any addition of new feature ( or) functionality is introduced then one should be ready to welcome greater website traffic.
@@ -40,7 +40,7 @@ A)Devops lifecycle involves in  different stages.they are
 8)exain about continous development?
 * This is the stage in the devops lifecycle where the software is developed continously unlike the waterfall model. 
 * The software deliverables are broken into multiple sprints of short development cycles.Developed and delivered in a  very short time.
-* This code involves the coding and building phases and makes use of toos such as git and svn for maintaing the different versions of the code.
+* This stage involves the coding and building phases and makes use of tools such as git and svn for maintaing the different versions of the code.
 * Tools like anr/maven/gradle for building/package the code into executable file that can be forwaded to the "QA" for testing.
 
 9)wht is jar file?
@@ -57,6 +57,9 @@ A)* This is the stage where developed code is continuously tested for bugs.
   * For continous testing automation tools like "Junit,seleniu,TestNG are used.
   * These tools allows the QA's to test multiple codebases throuhly in parllel to ensure that there is no flaws in the funtionality.
   * once the code is tested it is continuously integrated with the existing code.
+   CheckStyle for  coding standard” in Java. Using it will allow you to define and enforce good coding practices for a project.
+   PMD is a cross-language tool that “finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth”.
+   Using FindBugs allows teams to “inspect Java bytecode for occurrences of bug patterns”.
 
 13)explain about continous deployment in Devops lifecycle?
 A)* It is the satge where the code is deployed on all the servers.
